@@ -1,0 +1,77 @@
+# Ignore node_modules directory at the top level
+node_modules/
+
+# Ignore nested node_modules directories
+**/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore npm debugging log
+npm-debug.log*
+
+# Ignore Yarn debugging log
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore .env files containing environment variables
+.env
+
+# Ignore built output directories
+/build/
+/dist/
+/out/
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore user-specific configuration files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.kateconfig
+
+# Ignore Mac OS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore npm lock files
+package-lock.json
+yarn.lock
+
+# Ignore pnpm store directory
+.pnpm-store/
+
+# Ignore Jest coverage directory
+/coverage/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore compiled TypeScript declaration files
+*.d.ts
+
+# Ignore Webpack cache directory
+/.webpack-cache/
+
+# Ignore ESLint cache directory
+/.eslintcache
+
+# Ignore Cypress videos and screenshots
+/cypress/videos/
+/cypress/screenshots/
+
+# Ignore Babel cache directory
+/.babel-cache/
+/.parcel-cache/
+
+# Ignore Parcel cache directory
+.cache/
+dist/
+.cache-loader/
+
+# Ignore Storybook build directory
+/storybook-static/
